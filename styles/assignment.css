@@ -67,9 +67,13 @@ nav{
     font-weight: medium;
     color: #0E0E0E;
 }
-.dark-2{
-    color:#0E0E0E ;
+.banner-titel{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+    font-size: 24px;
 }
+
+
 .banar-discription{
     font-size: 50px;
     font-weight: bold;
@@ -134,4 +138,90 @@ padding: 34px 34px;
     font-weight:122px;
     font-size: 15px;
     border: none;
+}
+/* news */
+.news{
+    margin: 120px 160px;
+}
+.news-info{
+   display: flex;
+ gap: 34px;
+}
+.news-section{
+    margin: 120px 160px;
+}
+.news-item{
+display: flex;
+margin-left: 27cm;
+margin-top: -7cm;
+}
+.time-1{
+    margin-right: 12cm;
+}
+.satelite-pic{
+    width: 408px;
+    border-radius: 15px;
+}
+    
+.more-bg{
+    background-color:#FFFFFF;
+    padding: 62px;
+    border-radius: 20px;
+    max-width: 1280;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* .footer */
+.footer{
+   
+    background-color: white;
+    padding: 59.99px;
+    border-radius: 20px;
+    max-width: 1280;
+    margin: 150px;
+}
+.donate{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer-p{
+    padding: 32px;
+max-width: 1280;
+font-size: 16px;
+width: bold;
+}
+.taka{
+text-align: center;
+gap: 34px;
+}
+
+.btn{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #0E0E0E; 
+    border-radius: 10px;
+    padding: 20px 11px;
+}
+.btn0{
+    font-size: 40px;
+    font-weight: bold;
+    background-color:rgba(198, 228, 214, 1);
+    color: #0E0E0E; 
+    border-radius:10px;
+    padding: 20px 11px;
+}
+.other{
+  
+    font-size: 20px;
+    font-weight: 400; 
+    color: rgba(14, 14, 14, 0.3);
+    background-color: white;
+    padding:20px 500px ;
+    max-width: 1280;
+}
+.done{
+    margin: 15px auto;
+    max-width: 1280;
 }
